@@ -1,0 +1,28 @@
+#slideshowu1552
+{
+	position: relative;
+}
+
+#u1564
+{
+	position: absolute;
+	background-color: transparent;
+}
+
+#u1565,#u1644,#u1675
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background: url("../images/loading.gif") no-repeat center center;
+}
+
