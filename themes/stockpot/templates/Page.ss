@@ -26,7 +26,7 @@ Change it, enhance it and most importantly enjoy it!
 	<% require themedCSS('lightbox') %>
 	<% require themedCSS('ie') %>
 	<% require themedCSS('style') %>
-	<% require themedCSS('color-variants') %>
+	
 	<link rel="shortcut icon" href="$ThemeDir/img/favicon.ico" />
 
 </head>

@@ -1,10 +1,10 @@
-<header id="MainHeader" class="main-header parallax" style="background-image: url('$ThemeDir/images/content/main-background.jpg')">
+<header id="MainHeader" class="main-header parallax" style="background-image: url('$ThemeDir/images/content/prawns.jpg');">
     <div class="container">
         <section class="row-fluid">
             <div class="span10 offset1">
-                <img src="$ThemeDir/images/logo.png" title="companyname" alt="companyname">
-
-                <h1>We are super-duper awesome design studio</h1>
+                <img src="$ThemeDir/images/content/stockpot.png" title="companyname" alt="companyname">
+                <img src="$ThemeDir/images/content/text-logo-bold.png" title="companyname" alt="companyname">
+                
             </div>
         </section>
     </div>
@@ -17,7 +17,7 @@
             <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
                 <!-- This button toggles visibility of menu on mobile devices -->
             </button>
-            <a class="brand" href="#MainHeader"><img src="$ThemeDir/images/logo-small.png" alt="companyname"></a>
+            <a class="brand" href="#MainHeader"><img src="$ThemeDir/images/content/logo_small.jpg" alt="companyname"></a>
 
             <div class="nav-collapse collapse">
                 <ul class="nav nav-pills">
@@ -57,7 +57,7 @@
         </div>
     </div>
 </nav>
-<section id="Work" class="work parallax" style="background-image: url('$ThemeDir/images/content/background-image-1.jpg');">
+<section id="Work" class="work parallax" style="background-image: url('$ThemeDir/images/content/garden.jpg');">
     <div class="container">
         <h2>
             Work
@@ -152,7 +152,7 @@
         </div>
     </section>
 </section>
-<section id="Info" class="parallax" style="background-image: url('$ThemeDir/images/content/background-image-2.jpg')">
+<section id="Info" class="parallax" style="background-image: url('$ThemeDir/images/content/pickledlentils.jpg')">
     <div class="container">
         <h2>
             Info
@@ -215,7 +215,7 @@
         </div>
     </section>
 </section>
-<section id="BlogList" class="parallax" style="background-image: url('$ThemeDir/images/content/background-image-3.jpg')">
+<section id="BlogList" class="parallax" style="background-image: url('$ThemeDir/images/content/cornfritters.jpg')">
     <div class="container">
         <h2>
             From our blog
@@ -246,7 +246,7 @@
         </div>
     </div>
 </section>
-<section id="Contact" class="parallax" style="background-image: url('$ThemeDir/images/content/background-image-4.jpg')">
+<section id="Contact" class="parallax" style="background-image: url('$ThemeDir/images/content/jars.jpg')">
     <div class="container">
         <h2>
             Contact
