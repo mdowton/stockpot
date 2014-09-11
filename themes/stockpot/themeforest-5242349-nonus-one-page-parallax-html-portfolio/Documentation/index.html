@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>ThemeWoodmen Documentation</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="assets/syntaxh/css/shCoreRDark.css">
+    <style>
+        #content .patEl { float: left; width: 50px; font-size: 10px; line-height: 11px; margin-bottom: 10px; }
+        #content .patEl img { margin: 2px 0; }
+    </style>
+</head>
+<body>
+
+<div id="container">
+
+<!--Header-->
+<div id="header-container">
+    <img src="assets/img/logo.png" style="width:250px; height:100px;" alt="ThemeWoodmen Logo">
+
+    <h2 id="header-contact"><a href="mailto:support@createIT.pl">Contact Us</a></h2>
+</div>
+
+<div id="content">
+
+<!--Sidebar-->
+<div id="sidebar" class="sticky">
+    <h2>Contents</h2>
+
+    <ul>
+        <li class="current"><a href="#intro">Intro</a></li>
+        <li><a href="#structure">HTML Structure</a></li>
+        <li><a href="#css">CSS Files and Structure</a></li>
+        <li><a href="#javascript">JavaScript</a></li>
+        <li><a href="#psds">PSD Files</a></li>
+        <li><a href="#contact_form">Contact Form</a></li>
+        <li><a href="#twitter">Twitter settings</a></li>
+        <li><a href="#credits">Sources and Credits</a></li>
+    </ul>
+</div>
+
+<!--Main-->
+<div id="main">
+<h1 id="intro">nonus Site Template</h1>
+
+<p class="meta">By <a href="http://themeforest.net/user/ThemeWoodmen">ThemeWoodmen</a><br>Created: July 23, 2013. Last Update: July 23, 2013</p>
+
+<p class="intro">Thank you for purchasing our site template! If you have any questions that are beyond the scope of this help file, please feel free to email via my user page
+    <a href="http://themeforest.net/user/ThemeWoodmen">contact form</a>. Thanks so much!</p>
+
+<h2 id="structure" class="section-title">HTML Structure</h2>
+
+<p>
+    This theme is built upon bootstrap framework and is fully responsive. It adapts to window resolution and looks good on all devices including ipad and iphone.<br>
+    See for yourself (resize your browser).</p>
+
+<h3>Main menu and Site Logo</h3>
+
+<p>Main menu is fixed to the top of the viewport and includes a place for a logo and dropdown menu.<br>
+    Bootstrap implements responsive menu - for example: on ipad and iphone it will be shown after click (resize your browser and see yourself).
+</p>
+
+
+    <pre class="brush: html">
+        &lt;nav id="MainNav" class="navbar sticky">
+            &lt;a href="#MainNav" class="arrow">&lt;/a>
+            &lt;div class="navbar-inner">
+                &lt;div class="container">
+                    &lt;button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+                        &lt;!-- This button toggles visibility of menu on mobile devices -->
+                    &lt;/button>
+                    &lt;a class="brand" href="#MainHeader">&lt;img src="images/logo-small.png" title="companyname" alt="companyname">&lt;/a>
+                    &lt;div class="nav-collapse collapse">
+                        &lt;ul class="nav nav-pills">
+                            &lt;li>&lt;a href="#MainHeader">Home&lt;/a>&lt;/li>
+                            &lt;li>&lt;a href="#Work">Work&lt;/a>&lt;/li>
+                            &lt;li>&lt;a href="#Info">Info&lt;/a>&lt;/li>
+                            &lt;li>&lt;a href="#Contact">Contact&lt;/a>&lt;/li>
+                        &lt;/ul>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/nav>
+    </pre>
+
+
+<h3>Mobile Menu</h3>
+
+<p>Toggleable mobile menu will appear when browser size < 979px.</p>
+
+<p><strong>Visible</strong><br><img src="assets/img/content/main-menu.jpg" alt=""></p>
+
+<p><strong>Hidden</strong><br><img src="assets/img/content/main-menu-hidden.jpg" alt=""></p>
+
+
+<h3>Menu fixed to top</h3>
+
+<p>
+    By default, but not on mobile devices, menu will stick to top if you scroll past it, if you want to disable that feature remove class ".sticky" from "#MainNav".
+</p>
+
+    <pre class="brush: html">
+        &lt;nav id="MainNav" class="navbar sticky">
+            (...)
+        &lt;/nav>
+    </pre>
+
+    <pre class="brush: html">
+        &lt;nav id="MainNav" class="navbar">
+            (...)
+        &lt;/nav>
+    </pre>
+
+<p><img src="assets/img/content/sticky-menu.jpg" alt=""></p>
+
+
+<h3>Grid System and Single row structure</h3>
+
+<p>The default Bootstrap grid system utilizes 12 columns. It's responsive grid and adapts to viewport. Below 767px viewports, the columns become fluid and stack vertically. The fluid grid system uses percents instead of
+    pixels for column widths. Each row always include 12 columns (for example span8+span4 = span12 or (span6+offset2)+span4 = span12.<br>
+    Bootstrap documentation: <a href="http://twitter.github.com/bootstrap/scaffolding.html">here</a><br><br>
+    Basic fluid grid HTML:</p>
+
+
+   <pre class="brush: html">
+
+       &lt;div class="row-fluid">
+         &lt;div class="span8">
+             &lt;div class="row-fluid">
+                 &lt;div class="span6">&lt;/div>
+                 &lt;div class="span6">&lt;/div>
+             &lt;/div>
+         &lt;/div>
+         &lt;div class="span4">&lt;/div>
+       &lt;/div>
+
+       or
+
+       &lt;div class="row-fluid">
+         &lt;div class="span6 offset2">
+             &lt;div class="row-fluid">
+                 &lt;div class="span6">&lt;/div>
+                 &lt;div class="span6">&lt;/div>
+             &lt;/div>
+         &lt;/div>
+         &lt;div class="span4">&lt;/div>
+       &lt;/div>
+
+   </pre>
+
+
+<h3>Icons</h3>
+
+<p>
+    Font Awesome - <a href="http://fontawesome.io/icons/">http://fontawesome.io/icons/</a>
+
+    <br>
+    <br>
+    HTML markup:
+</p>
+
+    <pre class="brush:html">
+        &lt;i class="icon-facebook-sign">&lt;/i>
+    </pre>
+
+
+<h3>Icon Box</h3>
+
+<p>
+    You can add icon box elements to attract attention to a short fragment of text
+    <img src="assets/img/content/icon-box.jpg" alt="">
+    <br>
+    <br>
+    HTML markup:
+</p>
+
+    <pre class="brush:html">
+        &lt;li class="span4 icon-box">
+            &lt;h4>&lt;i class="icon-desktop">&lt;/i>Responsive&lt;/h4>
+            &lt;p>Your website can be viewed on many different devices. Laptops, mobiles, tablets...&lt;br>
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+	        &lt;/p>
+        &lt;/li>
+    </pre>
+
+
+<h2 id="css" class="section-title">CSS Files and Structure</h2>
+
+<p>
+    We've included style.css which contains all necessary styles.<br>
+    Main CSS file: style.css includes:
+</p>
+
+<ol>
+    <li>Font Awesome</li>
+    <li>Bootstrap Library</li>
+    <li>global</li>
+    <li>Flexslider native styles</li>
+    <li>Lightbox native styles</li>
+    <li>typography</li>
+    <li>sections</li>
+    <li>header</li>
+    <li>navigation</li>
+    <li>works</li>
+    <li>skills</li>
+    <li>info</li>
+    <li>team</li>
+    <li>contact</li>
+    <li>form styles</li>
+    <li>validation</li>
+    <li>Twitter</li>
+    <li>footer</li>
+    <li>other styles
+        <ul>
+            <li>Lightbox style overrides</li>
+            <li>Flexslider style overrides</li>
+        </ul>
+    </li>
+    <li>media-queries
+        <ul>
+            <li>@media (max-width: 979px) {}</li>
+            <li>@media (max-width: 767px) {}</li>
+            <li>@media (max-width: 480px) {}</li>
+        </ul>
+    </li>
+</ol>
+
+If you want to modify or add new styles please find this lines in <strong>style.css</strong> :
+<br><br>
+<pre class="brush:css">
+    /* ======================== */
+    /* === START EDIT HERE ==== */
+</pre>
+<br>
+Below you can add your code.<br><br>
+
+
+<h3>Color Variations</h3>
+
+<p>You can change motive color and adapt design to suit your needs. Below you find ready css with the color, just replace rgb(45,145,255) with your own and add it at the bottom of css file.<br>
+    Remember that some sections (#Skills and #Twitter) have transparent background (rgba(45, 145, 255, .7) by default), change it analogously.
+</p>
+
+    <pre class="brush:css">
+        /*
+        Secondary motive color
+        Grey should be fine in most cases, feel free to change it to your liking
+        */
+
+        #Twitter a {
+            color: #dbdbdb;
+        }
+
+        #Skills h3,
+        #Twitter span {
+            color: #dbdbdb;
+        }
+
+        /* Edit motive color below */
+
+        a {
+            color: rgb(45, 145, 255)
+        }
+
+        #MainNav .navbar-inner .container .btn-navbar {
+            background-color: rgb(45, 145, 255)
+        }
+
+        #MainNav .arrow {
+            background: rgb(45, 145, 255)
+        }
+
+        #Work .slides li a:hover:before {
+            background: rgb(45, 145, 255)
+        }
+
+        #Work .full-view nav a {
+            background-color: rgb(45, 145, 255)
+        }
+
+        form input:focus:invalid:focus,
+        form textarea:focus:invalid:focus,
+        form select:focus:invalid:focus,
+        form input:focus:valid:focus,
+        form textarea:focus:valid:focus,
+        form select:focus:valid:focus {
+            border-color: rgb(45, 145, 255)
+        }
+
+        form input[type="text"]:focus,
+        form textarea:focus {
+            border-color: rgb(45, 145, 255)
+        }
+
+        form input[type="submit"],
+        form input[type="button"] {
+            background: rgb(45, 145, 255)
+        }
+
+        .flexslider .flex-control-paging li a.flex-active {
+            background: rgb(45, 145, 255)
+        }
+
+        .flexslider .flex-direction-nav .flex-prev,
+        .flexslider .flex-direction-nav .flex-next,
+        .lb-data .lb-close {
+            background-color: rgb(45, 145, 255)
+        }
+
+        #Skills,
+        #Twitter {
+            background: rgb(45, 145, 255); /* IE fallback, it does not understand rgba */
+            background: rgba(45, 145, 255, .7)
+        }
+    </pre>
+
+
+<h2 id="javascript" class="section-title">Javascript</h2>
+
+
+<p>All javascripts are placed in folder /js. All initial function calls are made in main.js.<br>
+    This theme uses following Javascript plugins:</p>
+
+<ol>
+    <li>Bootstrap v2.3.0 framework (powerful front-end framework for faster and easier web development)</li>
+    <li>jQuery 1.9.1 (A fast javascript library that simplifies how to traverse HTML documents, handle events, perform animations.)</li>
+    <li>FlexSlider v2.1</li>
+    <li>Lightbox2 (small javascript library used to overlay images on top of the current page)</li>
+    <li>jQuery Parallax v1.1.3</li>
+</ol>
+
+
+<h3>Flexslider</h3>
+
+<p>
+    We use this plugin to show list of works.
+    Documentation: <a href="http://www.woothemes.com/flexslider/">plugin homepage</a></p>
+
+<p><img src="assets/img/content/flexslider.jpg" alt=""></p>
+
+<p> This is HTML markup we use:</p>
+
+   <pre class="brush: html">
+       &lt;section class="preview flexslider row-fluid">
+            &lt;ul class="slides span12">
+                &lt;li>
+                    &lt;ul class="row-fluid">
+                        &lt;li class="span4">&lt;a href="work1.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-1.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work2.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-2.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work3.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-3.jpg" alt="">&lt;/a>&lt;/li>
+                    &lt;/ul>
+                    &lt;ul class="row-fluid">
+                        &lt;li class="span4">&lt;a href="work4.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-4.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work5.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-5.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work6.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-6.jpg" alt="">&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/li>
+                &lt;li>
+                    &lt;ul class="row-fluid">
+                        &lt;li class="span4">&lt;a href="work7.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-7.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work8.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-8.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work9.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-9.jpg" alt="">&lt;/a>&lt;/li>
+                    &lt;/ul>
+                    &lt;ul class="row-fluid">
+                        &lt;li class="span4">&lt;a href="work10.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-10.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work11.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-11.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work12.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-12.jpg" alt="">&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/li>
+                &lt;li>
+                    &lt;ul class="row-fluid">
+                        &lt;li class="span4">&lt;a href="work13.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-13.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work14.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-14.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work15.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-15.jpg" alt="">&lt;/a>&lt;/li>
+                    &lt;/ul>
+                    &lt;ul class="row-fluid">
+                        &lt;li class="span4">&lt;a href="work16.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-16.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work17.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-17.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work18.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-18.jpg" alt="">&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/li>
+            &lt;/ul>
+       &lt;/section>
+   </pre>
+
+<p>and js:</p>
+
+<pre class="brush: javascript">
+    $('#Work .flexslider').flexslider({
+        slideshow: false
+    });
+</pre>
+
+
+<h3>custom ajax portfolio</h3>
+
+<p>
+    We use custom javascript to dynamically load content.
+
+<p><img src="assets/img/content/ajax-portfolio.jpg" alt=""></p>
+
+<p> This is HTML markup we use:</p>
+
+   <pre class="brush: html">
+       &lt;section class="preview flexslider row-fluid">
+            &lt;ul class="slides span12">
+                &lt;li>
+                    &lt;ul class="row-fluid">
+                        &lt;li class="span4">&lt;a href="work1.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-1.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work2.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-2.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work3.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-3.jpg" alt="">&lt;/a>&lt;/li>
+                    &lt;/ul>
+                    &lt;ul class="row-fluid">
+                        &lt;li class="span4">&lt;a href="work4.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-4.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work5.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-5.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work6.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-6.jpg" alt="">&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/li>
+                &lt;li>
+                    &lt;ul class="row-fluid">
+                        &lt;li class="span4">&lt;a href="work7.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-7.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work8.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-8.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work9.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-9.jpg" alt="">&lt;/a>&lt;/li>
+                    &lt;/ul>
+                    &lt;ul class="row-fluid">
+                        &lt;li class="span4">&lt;a href="work10.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-10.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work11.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-11.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work12.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-12.jpg" alt="">&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/li>
+                &lt;li>
+                    &lt;ul class="row-fluid">
+                        &lt;li class="span4">&lt;a href="work13.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-13.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work14.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-14.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work15.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-15.jpg" alt="">&lt;/a>&lt;/li>
+                    &lt;/ul>
+                    &lt;ul class="row-fluid">
+                        &lt;li class="span4">&lt;a href="work16.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-16.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work17.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-17.jpg" alt="">&lt;/a>&lt;/li>
+                        &lt;li class="span4">&lt;a href="work18.html">&lt;img src="images/demo-content/works/thumbnails/work-thumbnail-18.jpg" alt="">&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/li>
+            &lt;/ul>
+       &lt;/section>
+       &lt;section class="full-view row-fluid">
+           &lt;!-- Work details are loaded here with Ajax from external html files -->
+       &lt;/section>
+   </pre>
+
+<p>and js:</p>
+
+<pre class="brush: javascript">
+    /* numbers thumbnails in work list (#Work .slides) from 1 to x */
+    var workThumbnails = $("#Work .preview ul.slides li a");
+
+    workThumbnails.each(function(index, thumbnail) {
+        var i = index + 1;
+        $(thumbnail).data("index", i);
+    });
+
+    /* show/hide animation */
+    function showFullView (){
+        (...)
+    }
+    function hideFullView () {
+        (...)
+    }
+    hideFullView();
+
+    function findSiblings (index, list) {
+        (...)
+    }
+
+    var container = $("#Work > .container");
+    var box = $("section.full-view", container);
+    /* Load content with Ajax when thumbnail is clicked */
+    $("#Work .preview .slides a").on('click',function (e) {
+        (...)
+	    scrollToAnchor($work);
+    });
+
+    function slide (dir){
+        {...)
+    }
+    $(document).on('click', "#Work .full-view nav a.all", function() {
+        hideFullView();
+        (...)
+    });
+    $(document).on('click', "#Work .full-view nav a.prev", function(){
+        slide("r");
+
+	    return false;
+    });
+    $(document).on('click', "#Work .full-view nav a.next", function(){
+        slide("l");
+
+	    return false;
+    });
+</pre>
+
+
+<h3>Lightbox</h3>
+
+<p>
+    Lightbox is small javascript library used to overlay images on top of the current page.<br>
+    After clicking on image fullsize image will show up in an overlay.<br>
+    To turn on lightbox just add data-lightbox="name-of-your-image" attribute to link with a fullsize version of your image.<br>
+    Documentation: <a href="http://lokeshdhakar.com/projects/lightbox2/">plugin homepage</a></p>
+</p>
+
+
+<p><img src="assets/img/content/lightbox.jpg" alt=""></p>
+
+
+<p>This is HTML markup we use:</p>
+
+
+      <pre class="brush: html">
+          &lt;a class="span9" href="images/demo-content/works/large/work-large-1.jpg" data-lightbox="image-1">
+              &lt;img src="images/demo-content/works/middle/work-middle-1.jpg" alt="preview">
+          &lt;/a>
+      </pre>
+
+
+<h3>jQuery Parallax</h3>
+
+<p>
+    jQuery Parallax is a small javascript library that creates parallax effect on background images.<br>
+    To turn parallax on we use short javascript code.<br>
+    <i>For performance reasons we turn off that effect on mobile devices.</i><br>
+    Documentation: <a href="http://www.ianlunn.co.uk/plugins/jquery-parallax/">plugin homepage</a>
+</p>
+
+<p>js code we use:</p>
+
+    <pre class="brush: javascript">
+        $('#MainHeader').parallax("20%", 0.2);
+        $('#Work').parallax("20%", 0.2);
+        $('#Info').parallax("20%", 0.2);
+        $('#Contact').parallax("20%", 0.2);
+
+        //.parallax(xPosition, speedFactor, outerHeight) options:
+        //xPosition - Horizontal position of the element
+        //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+        //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+    </pre>
+<p>and html:</p>
+
+    <pre class="brush: html">
+        &lt;section id="Work" class="parallax" style="background-image: url('images/demo-content/background-image-1.jpg');">
+    </pre>
+
+
+<h2 id="psds" class="section-title">PSD Files</h2>
+
+
+<p>There are 2 PSD files included in the project. </p>
+
+<ul>
+    <li>01-nonus.psd</li>
+    <li>02-nonus-hovers.psd</li>
+</ul>
+
+
+<p>Both PSD files are of course layered, layers are split into groups.
+    If you'd like to change anything in the page layout, please put jpg/png image in HTML/img directory.</p>
+
+
+<h3>Typography</h3>
+
+<p>In this theme we use <strong>Lato</strong> and <strong>Rokkitt</strong> fonts</p>
+
+<p>This line includes the fonts:<br>
+    (placed in style.css file)</p>
+
+    <pre class="brush:css">
+        @import url(http://fonts.googleapis.com/css?family=Lato:900|Rokkitt);
+    </pre>
+
+
+<p>More info: <a href="http://www.google.com/fonts#ReviewPlace:refine/Collection:Lato:900|Rokkitt">Google Fonts</a></p>
+
+<h3 id="contact_form">Contact Form</h3>
+<hr class="notop">
+
+<p>Template comes with ready to use Contact Form. Before you start using it, please make sure your server:</p>
+<ul>
+    <li>uses <strong>PHP 5.2+</strong></li>
+    <li>your web server (like Apache) is configured to listen on directory <strong>form</strong></li>
+</ul>
+<h5>Configuration</h5>
+
+<p>File js/contact-form.js contains javascript responsible for validating and sending messages. You can customize it's behaviour by setting: </p>
+<ul>
+    <li><strong>showErrors</strong> - should form display validation error messages? (default: true)</li>
+    <li><strong>sendingMessage</strong> - once submit button is clicked, it's text will be changed to this value (default: Sending...)</li>
+    <li><strong>debug</strong> - displays debug messages when problems occur. Please make sure that also in send.php $debug = true.</li>
+</ul>
+
+<p>Inside <strong>form</strong> directory you will find:</p>
+<ul>
+    <li>
+        <strong>config.php</strong> - Mail configuration which MUST be setup up before sending emails, please make sure that:
+        <ul>
+            <li>hostname, username and password are properly entered</li>
+            <li>in case of problems in sending messages, use <strong>$debug = true</strong> variable to view any email errors</li>
+        </ul>
+    </li>
+    <li><strong>contact.html</strong> - this template will be used to render email messsage. Please note that special placeholders are available in this file surrounded with {XXX} like {name}.
+        This placeholders will be subsituted will real content received from contact form.
+    </li>
+    <li>
+        <strong>contact.php</strong> - this is where mail is actually being send for contact form
+    </li>
+</ul>
+<p>Please make sure that <strong>debug variables are set to false on production</strong>!</p>
+
+<h2 id="twitter" class="section-title">Twitter settings</h2>
+ <p>Template comes with ready to use Twitter Form. Before you start using it, please make sure your server:</p>
+    <ul>
+        <li>uses <strong>PHP 5.2+</strong></li>
+        <li>your web server (like Apache) is configured to listen on directory <strong>twitter</strong></li>
+    </ul>
+    <h5>Configuration</h5>
+
+    <p>Inside <strong>twitter</strong> directory you will find config.php.
+
+    <p>
+        New Twitter API requires authentication to display tweets from your account.
+        Please generate 4 special keys for your twitter account via <a href="https://dev.twitter.com/apps">https://dev.twitter.com/apps</a>:
+    </p>
+    <ul>
+        <li>Consumer key (consumer_key)</li>
+        <li>Consumer secret (consumer_secret)</li>
+        <li>Access token (oauth_access_token)</li>
+        <li>Access token secret (oauth_access_token_secret)</li>
+    </ul>
+<br>
+<br>
+
+<h2 id="credits" class="section-title">Sources and Credits</h2>
+
+
+<p>The following sources and files have been used to build up this theme</p>
+
+<ul>
+    <li>Twitter Bootstrap - <a href="http://twitter.github.com/bootstrap">http://twitter.github.com/bootstrap/</a></li>
+    <li>jQuery - <a href="http://www.jquery.com">http://www.jquery.com</a></li>
+    <li>FlexSlider 2 - <a href="http://www.woothemes.com/flexslider/">http://www.woothemes.com/flexslider/</a></li>
+    <li>Lightbox 2 - <a href="http://lokeshdhakar.com/projects/lightbox2/">http://lokeshdhakar.com/projects/lightbox2/</a></li>
+    <li>jQuety Parallax - <a href="http://www.ianlunn.co.uk/plugins/jquery-parallax/">http://www.ianlunn.co.uk/plugins/jquery-parallax/</a></li>
+    <li>Font Awesome - <a href="http://fontawesome.io/icons/">http://fontawesome.io/icons/</a></li>
+    <li>Google Fonts - <a href="http://www.google.com/fonts">http://www.google.com/fonts</a></li>
+
+</ul>
+<br><br>
+
+<p>
+    Once again, thank you so much for purchasing this theme.
+    If you have any questions, feel free to email me via my user page <a href="http://themeforest.net/user/ThemeWoodmen">contact form</a>.
+
+</p>
+
+
+</div>
+
+<!--Clear-->
+<div class="clear"></div>
+
+</div>
+
+<!--Footer-->
+<div id="footer">
+    &copy; ThemeWoodmen
+</div>
+
+</div>
+
+<script type="text/javascript" src="assets/syntaxh/js/shCore.js"></script>
+<script type="text/javascript" src="assets/syntaxh/js/shBrushJScript.js"></script>
+<script type="text/javascript" src="assets/syntaxh/js/shBrushCss.js"></script>
+<script type="text/javascript" src="assets/syntaxh/js/shBrushXml.js"></script>
+
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+
+<!-- <script src="assets/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="assets/js/sidebar.js" type="text/javascript"></script> -->
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.nav.js"></script>
+
+<script>
+    // Sticky
+    if (!!$('.sticky').offset()) { // make sure ".sticky" element exists
+        var stickyTop = $('.sticky').offset().top; // returns number
+        $(window).scroll(function () { // scroll event
+            var windowTop = $(window).scrollTop(); // returns number
+            if (stickyTop < windowTop) {
+                $('.sticky').css({ position: 'fixed', top: 0 });
+            } else {
+                $('.sticky').css('position', 'static');
+            }
+        });
+    }
+
+    // Scroll
+    $(document).ready(function () {
+        $('#sidebar').onePageNav({
+            begin: function () {
+                console.log('start')
+            },
+            end: function () {
+                console.log('stop')
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

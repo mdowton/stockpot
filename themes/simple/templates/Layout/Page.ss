@@ -5,56 +5,11 @@
 
 <div class="clearfix" id="page"><!-- column -->
    <div class="position_content" id="page_position_content">
-    <div class="SlideShowWidget clearfix colelem" id="slideshowu1552"><!-- none box -->
-     &nbsp;
-     <div class="popup_anchor" id="u1564popup">
-      <div class="SlideShowContentPanel clearfix fullscreen" id="u1564"><!-- stack box -->
-       <div class="SSSlide clip_frame fullscreen" id="u1565"><!-- image -->
-        <img class="ImageInclude" id="u1565_img" data-src="/themes/simple/images/cornfritters.jpg" src="images/blank.gif" alt="" data-width="7775" data-height="5000"/>
-       </div>
-       <div class="SSSlide invi clip_frame fullscreen" id="u1644"><!-- image -->
-        <img class="ImageInclude" id="u1644_img" data-src="/themes/simple/images/hassleback.jpg" src="images/blank.gif" alt="" data-width="6250" data-height="5000"/>
-       </div>
-       <div class="SSSlide invi clip_frame fullscreen" id="u1675"><!-- image -->
-        <img class="ImageInclude" id="u1675_img" data-src="images/mortenpestle.jpg" src="images/blank.gif" alt="" data-width="8000" data-height="5000"/>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="clearfix colelem" id="pu89"><!-- group -->
-     <div class="browser_width grpelem" id="u89"><!-- group -->
-      <div class="clearfix" id="u89_align_to_page">
-       <a class="nonblock nontext anim_swing grpelem" id="u1937" href="index.html#about"><!-- custom html --><i class="icon-angle-down icon-block" style="line-height:72px;"></i></a>
-      </div>
-     </div>
-     <a class="anchor_item grpelem" id="about"></a>
-    </div>
-    <div class="clearfix colelem" id="pu106"><!-- group -->
-     <div class="ose_pre_init browser_width mse_pre_init" id="u106"><!-- simple frame --></div>
-     <div class="clearfix ose_pre_init mse_pre_init" id="u107-4"><!-- content -->
-      <p>STOCKPOT</p>
-     </div>
-     <div class="clip_frame ose_pre_init mse_pre_init" id="u1855"><!-- image -->
-      <img class="block" id="u1855_img" src="images/football%20banner.png" alt="" width="417" height="421"/>
-     </div>
-     <ul class="MenuBar clearfix ose_pre_init mse_pre_init" id="menuu108"><!-- horizontal box -->
-      <li class="MenuItemContainer clearfix grpelem" id="u123"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u124" href="index.html#about"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u126-4"><!-- content --><p>ABOUT</p></div></a>
-      </li>
-      <li class="MenuItemContainer clearfix grpelem" id="u109"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u112" href="index.html#team"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u115-4"><!-- content --><p>TEAM</p></div></a>
-      </li>
-      <li class="MenuItemContainer clearfix grpelem" id="u130"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u131" href="index.html#gallery"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u134-4"><!-- content --><p>GALLERY</p></div></a>
-      </li>
-      <li class="MenuItemContainer clearfix grpelem" id="u1533"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u1536" href="index.html#blog"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1537-4"><!-- content --><p>BLOG</p></div></a>
-      </li>
-      <li class="MenuItemContainer clearfix grpelem" id="u116"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u117" href="index.html#contact"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u119-4"><!-- content --><p>CONTACT</p></div></a>
-      </li>
-     </ul>
-    </div>
+      <% include SlideShow %>
+    
+      <%include Menu %>
+    
+    
     <div class="clearfix colelem" id="pu1667"><!-- group -->
      <div class="browser_width grpelem" id="u1667"><!-- column -->
       <div class="clearfix" id="u1667_align_to_page">
@@ -104,7 +59,7 @@
       </div>
      </div>
      <div class="clearfix grpelem" id="u152-4"><!-- content -->
-      <p>Morbi rutrum, elit ac fermentum egestas, tortor ante vestibulum est, eget scelerisque nisl velit eget tellus. Lorem dolor amet, consectetuer adipiscing elit. Nullam dignissim convallis est.</p>
+      <p>rutrum, elit ac fermentum egestas, tortor ante vestibulum est, eget scelerisque nisl velit eget tellus. Lorem dolor amet, consectetuer adipiscing elit. Nullam dignissim convallis est.</p>
      </div>
      <div class="clearfix grpelem" id="u1686-21"><!-- content -->
       <p>Ventelo</p>
@@ -647,35 +602,303 @@
   <script src="/themes/simple/javascript/jquery.musepolyfill.bgsize.js?291134478" type="text/javascript"></script>
   <script src="/themes/simple/javascript/jquery.watch.js?4068933136" type="text/javascript"></script>
   <!-- Other scripts -->
+  
   <script type="text/javascript">
-   $(document).ready(function() { try {
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-$('.browser_width').toBrowserWidth();/* browser width elements */
-Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.initWidget('#slideshowu1552', function(elem) { $(elem).data('widget', new WebPro.Widget.ContentSlideShow(elem, {heroFitting:'fillFrameProportionally',autoPlay:true,displayInterval:2500,slideLinkStopsSlideShow:false,transitionStyle:'horizontal',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,fullScreen:true})); });/* #slideshowu1552 */
-$('#u106').registerPositionScrollEffect([{"in":[-Infinity,800.05],"speed":[null,1]},{"in":[800.05,Infinity],"speed":[null,0]}]);/* scroll effect */
-$('#u106').registerOpacityScrollEffect([{"fade":50,"opacity":0,"in":[-Infinity,800.05]},{"opacity":100,"in":[800.05,800.05]},{"fade":50,"opacity":100,"in":[800.05,Infinity]}]);/* scroll effect */
-$('#u107-4').registerPositionScrollEffect([{"in":[-Infinity,800],"speed":[0,1]},{"in":[800,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#u107-4').registerOpacityScrollEffect([{"fade":50,"opacity":0,"in":[-Infinity,800]},{"opacity":100,"in":[800,800]},{"fade":59.05,"opacity":100,"in":[800,Infinity]}]);/* scroll effect */
-$('#u1855').registerPositionScrollEffect([{"in":[-Infinity,73.9],"speed":[0,1]},{"in":[73.9,Infinity],"speed":[0,1]}]);/* scroll effect */
-$('#u1855').registerOpacityScrollEffect([{"fade":50,"opacity":100,"in":[-Infinity,73.9]},{"opacity":51,"in":[73.9,73.9]},{"fade":50,"opacity":0,"in":[73.9,Infinity]}]);/* scroll effect */
-Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-$('#menuu108').registerPositionScrollEffect([{"in":[-Infinity,800],"speed":[0,1]},{"in":[800,Infinity],"speed":[0,0]}]);/* scroll effect */
-$('#menuu108').registerOpacityScrollEffect([{"fade":50,"opacity":0,"in":[-Infinity,800]},{"opacity":100,"in":[800,800]},{"fade":50,"opacity":100,"in":[800,Infinity]}]);/* scroll effect */
-$('#u320').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1461],"speed":[0,0.7]},{"in":[1461,Infinity],"speed":[0,0.7]}]);/* scroll effect */
-$('#u348').registerPositionScrollEffect([{"in":[-Infinity,1729],"speed":[1,1]},{"in":[1729,Infinity],"speed":[0,1]}]);/* scroll effect */
-$('#u364').registerPositionScrollEffect([{"in":[-Infinity,2037],"speed":[1,1]},{"in":[2037,Infinity],"speed":[0,1]}]);/* scroll effect */
-$('#u344').registerPositionScrollEffect([{"in":[-Infinity,1575],"speed":[-1,1]},{"in":[1575,Infinity],"speed":[0,1]}]);/* scroll effect */
-$('#u356').registerPositionScrollEffect([{"in":[-Infinity,1883],"speed":[-1,1]},{"in":[1883,Infinity],"speed":[0,1]}]);/* scroll effect */
-Muse.Utils.initWidget('#pamphletu387', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:true,displayInterval:2000,transitionStyle:'horizontal',transitionDuration:2000,hideAllContentsFirst:false,shuffle:false,enableSwipe:true}); });/* #pamphletu387 */
-$('#u1018').registerBackgroundPositionScrollEffect([{"in":[-Infinity,3482],"speed":[0,0.7]},{"in":[3482,Infinity],"speed":[0,0.7]}]);/* scroll effect */
-Muse.Utils.initWidget('#slideshowu1073', function(elem) { $(elem).data('widget', new WebPro.Widget.ContentSlideShow(elem, {autoPlay:false,displayInterval:3000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:true,shuffle:false,transitionDuration:500,enableSwipe:true,fullScreen:false})); });/* #slideshowu1073 */
-Muse.Utils.initWidget('#pamphletu1346', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:true,displayInterval:2000,transitionStyle:'horizontal',transitionDuration:1600,hideAllContentsFirst:false,shuffle:false,enableSwipe:true}); });/* #pamphletu1346 */
-$('#u1449').registerBackgroundPositionScrollEffect([{"in":[-Infinity,5302],"speed":[0,0.7]},{"in":[5302,Infinity],"speed":[0,0.7]}]);/* scroll effect */
-Muse.Utils.initWidget('#widgetu1456', function(elem) { new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu1456 */
-Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+   
+   $(document).ready(function() { 
+    
+    try {
+        Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+        $('.browser_width').toBrowserWidth();/* browser width elements */
+        Muse.Utils.prepHyperlinks(true);/* body */
+        Muse.Utils.initWidget('#slideshowu1552', function(elem) { 
+        
+        $(elem).data('widget', new WebPro.Widget.ContentSlideShow(elem, {
+                  heroFitting:'fillFrameProportionally',
+                  autoPlay:true,
+                  displayInterval:2500,
+                  slideLinkStopsSlideShow:false,
+                  transitionStyle:'horizontal',
+                  lightboxEnabled_runtime:false,
+                  shuffle:false,
+                  transitionDuration:500,
+                  enableSwipe:true,
+                  fullScreen:true
+                })); });/* #slideshowu1552 */
+          
+          $('#u106').registerPositionScrollEffect(
+            [
+              {
+                "in":[-Infinity,800.05],
+                "speed":[null,1]
+              },
+              {
+                "in":[800.05,Infinity],
+                "speed":[null,0]
+              }
+            ]);/* scroll effect */
+          
+          $('#u106').registerOpacityScrollEffect(
+            [
+              {
+                "fade":50,
+                "opacity":0,
+                "in":[-Infinity,800.05]
+              },
+              {
+                "opacity":100,
+                "in":[800.05,800.05]
+              },
+              {
+                "fade":50,
+                "opacity":100,
+                "in":[800.05,Infinity]
+              }
+            ]);/* scroll effect */
+          
+          $('#u107-4').registerPositionScrollEffect(
+            [
+              {
+                "in":[-Infinity,800],
+                "speed":[0,1]
+              },
+              {
+                "in":[800,Infinity],
+                "speed":[0,0]
+              }
+            ]);/* scroll effect */
+          
+          $('#u107-4').registerOpacityScrollEffect(
+            [
+              {
+                "fade":50,
+                "opacity":0,
+                "in":[-Infinity,800]
+              },
+              {
+                "opacity":100,
+                "in":[800,800]
+              },
+              {
+                "fade":59.05,
+                "opacity":100,
+                "in":[800,Infinity]
+              }
+            ]);/* scroll effect */
+
+            $('#u1855').registerPositionScrollEffect(
+              [
+                {
+                  "in":[-Infinity,73.9],
+                  "speed":[0,1]
+                },
+                {
+                  "in":[73.9,Infinity],
+                  "speed":[0,1]
+                }
+              ]);/* scroll effect */
+
+          $('#u1855').registerOpacityScrollEffect(
+            [
+              {
+                "fade":50,
+                "opacity":100,
+                "in":[-Infinity,73.9]
+              },
+              {
+                "opacity":51,
+                "in":[73.9,73.9]
+              },
+              {
+                "fade":50,
+                "opacity":0,
+                "in":[73.9,Infinity]
+              }
+            ]);/* scroll effect */
+
+      Muse.Utils.initWidget('.MenuBar', function(elem) { 
+        return $(elem).museMenu(); 
+      });/* unifiedNavBar */
+
+        $('#menuu108').registerPositionScrollEffect(
+          [
+            {
+              "in":[-Infinity,800],
+              "speed":[0,1]
+            },
+            {
+              "in":[800,Infinity],"speed":[0,0]
+            }
+          ]);/* scroll effect */
+
+      $('#menuu108').registerOpacityScrollEffect(
+        [
+          {
+            "fade":50,
+            "opacity":0,
+            "in":[-Infinity,800]
+          },
+          {
+            "opacity":100,
+            "in":[800,800]
+          },
+          {
+            "fade":50,
+            "opacity":100,
+            "in":[800,Infinity]
+          }
+        ]);/* scroll effect */
+
+      $('#u320').registerBackgroundPositionScrollEffect(
+        [
+          {
+            "in":[-Infinity,1461],
+            "speed":[0,0.7]
+          },
+          {
+            "in":[1461,Infinity],
+            "speed":[0,0.7]
+          }
+        ]);/* scroll effect */
+
+      $('#u348').registerPositionScrollEffect(
+        [
+          {
+            "in":[-Infinity,1729],
+            "speed":[1,1]
+          },
+          {
+            "in":[1729,Infinity],
+            "speed":[0,1]
+          }
+        ]);/* scroll effect */
+
+      $('#u364').registerPositionScrollEffect(
+        [
+          {
+            "in":[-Infinity,2037],
+            "speed":[1,1]
+          },
+          {
+            "in":[2037,Infinity],
+            "speed":[0,1]
+          }
+        ]);/* scroll effect */
+
+      $('#u344').registerPositionScrollEffect(
+        [
+          {
+            "in":[-Infinity,1575],
+            "speed":[-1,1]
+          },
+          {
+            "in":[1575,Infinity],
+            "speed":[0,1]
+          }
+        ]);/* scroll effect */
+
+      $('#u356').registerPositionScrollEffect(
+        [
+          {
+            "in":[-Infinity,1883],
+            "speed":[-1,1]
+          },
+          {
+            "in":[1883,Infinity],
+            "speed":[0,1]
+          }
+        ]);/* scroll effect */
+
+      Muse.Utils.initWidget('#pamphletu387', function(elem) { 
+          new WebPro.Widget.ContentSlideShow(elem, {
+                              contentLayout_runtime:'stack',
+                              event:'click',
+                              deactivationEvent:'none',
+                              autoPlay:true,
+                              displayInterval:2000,
+                              transitionStyle:'horizontal',
+                              transitionDuration:2000,
+                              hideAllContentsFirst:false,
+                              shuffle:false,
+                              enableSwipe:true
+                            }); });/* #pamphletu387 */
+        
+        $('#u1018').registerBackgroundPositionScrollEffect(
+          [
+            {
+              "in":[-Infinity,3482],
+              "speed":[0,0.7]
+            },
+            {
+              "in":[3482,Infinity],
+              "speed":[0,0.7]
+            }
+          ]);/* scroll effect */
+      
+      Muse.Utils.initWidget('#slideshowu1073', function(elem) { 
+                $(elem).data('widget', new WebPro.Widget.ContentSlideShow(elem, {
+                      autoPlay:false,
+                      displayInterval:3000,
+                      slideLinkStopsSlideShow:false,
+                      transitionStyle:'fading',
+                      lightboxEnabled_runtime:true,
+                      shuffle:false,
+                      transitionDuration:500,
+                      enableSwipe:true,
+                      fullScreen:false
+                })); 
+      });/* #slideshowu1073 */
+
+      Muse.Utils.initWidget('#pamphletu1346', function(elem) { 
+                new WebPro.Widget.ContentSlideShow(elem, {
+                      contentLayout_runtime:'stack',
+                      event:'click',
+                      deactivationEvent:'none',
+                      autoPlay:true,
+                      displayInterval:2000,
+                      transitionStyle:'horizontal',
+                      transitionDuration:1600,
+                      hideAllContentsFirst:false,
+                      shuffle:false,
+                      enableSwipe:true
+                }); 
+      });/* #pamphletu1346 */
+
+      $('#u1449').registerBackgroundPositionScrollEffect(
+        [
+          {
+            "in":[-Infinity,5302],
+            "speed":[0,0.7]
+          },
+          {
+            "in":[5302,Infinity],
+            "speed":[0,0.7]
+          }
+        ]);/* scroll effect */
+
+      Muse.Utils.initWidget('#widgetu1456', function(elem) { 
+            new WebPro.Widget.Form(elem, {
+                    validationEvent:'submit',
+                    errorStateSensitivity:'high',
+                    fieldWrapperClass:'fld-grp',
+                    formSubmittedClass:'frm-sub-st',
+                    formErrorClass:'frm-subm-err-st',
+                    formDeliveredClass:'frm-subm-ok-st',
+                    notEmptyClass:'non-empty-st',
+                    focusClass:'focus-st',
+                    invalidClass:'fld-err-st',
+                    requiredClass:'fld-err-st',
+                    ajaxSubmit:true
+                  }); 
+      });/* #widgetu1456 */
+      
+      Muse.Utils.fullPage('#page');/* 100% height page */
+      
+      Muse.Utils.showWidgetsWhenReady();/* body */
+      Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+  } catch(e) { 
+      Muse.Assert.fail('Error calling selector function:' + e); 
+  }
+});
 </script>
 <!--end template code-->
