@@ -1,10 +1,20 @@
-<header id="MainHeader" class="main-header parallax" style="background-image: url('$ThemeDir/images/content/prawns.jpg');">
+<header id="MainHeader" class="main-header parallax" style="background-color:#66ccff">
     <div class="container">
         <section class="row-fluid">
             <div class="span10 offset1">
-                <img src="$ThemeDir/images/content/stockpot.png" title="companyname" alt="companyname">
-                <img src="$ThemeDir/images/content/text-logo-bold.png" title="companyname" alt="companyname">
-                
+                <div class="wrapper" style="height:500px; position:relative; top:-57px;">
+                    <!--<img src="$ThemeDir/images/content/text-logo-bold.png" title="companyname" alt="companyname">-->
+                    <div class=""><img src="$ThemeDir/images/content/stripes_black.png" alt="cloudmessage"></div>
+                    <div class="stockpot-animation animated bounceInDown"><img src="$ThemeDir/images/content/stockpot.png" alt="cloudmessage" ></div>
+                    <div class="animated tada"><img src="$ThemeDir/images/content/main-logo.png" title="companyname" alt="companyname"></div>
+                    <div class="flying-cloud"><img src="$ThemeDir/images/content/cloudMessage.png" alt="cloudmessage" style="display:inline;"></div>
+                    <div class="stockpot-animation animated flash stars"><img src="$ThemeDir/images/content/stars.png" alt="cloudmessage" ></div>
+                    <div class="animatedFork fadeInUp"><img src="$ThemeDir/images/content/forkKnife.png" alt="cloudmessage"></div>
+                    <div class="flying-cloud-group"><img src="$ThemeDir/images/content/clouds.png" alt="cloudmessage"></div>
+                    <div class="catering-text"><img src="$ThemeDir/images/content/catering_text.png" alt="cloudmessage"></div>
+                    <div class="cullinary-text"><img src="$ThemeDir/images/content/cullinary-text.png" alt="cloudmessage"></div>
+                    <div class="small-forks"><img src="$ThemeDir/images/content/smallforks.png" alt="cloudmessage"></div>
+                </div>
             </div>
         </section>
     </div>
