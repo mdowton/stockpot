@@ -2,6 +2,7 @@
 @import '../css/flexslider.css';
 @import '../css/lightbox.css';
 @import url(http://fonts.googleapis.com/css?family=Lato:900|Bitter);
+
 /*!
  * Bootstrap v2.3.0
  *
@@ -865,6 +866,9 @@ h6 {
   line-height: 20px;
   color: inherit;
   text-rendering: optimizelegibility;
+}
+h2 {
+  font: 400 3.5em/125% 'Amatic SC', Helvetica, Sans-serif;
 }
 h1 small,
 h2 small,
@@ -7492,8 +7496,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', sans-serif;
-  color: #4c4c4c;
+  font: 400 'Amatic SC', Helvetica, Sans-serif;
+  color: #FFF;
   font-weight: bold;
 }
 h1,
@@ -7518,7 +7522,7 @@ h1 {
   line-height: 1.2em;
 }
 h2 {
-  font-size: 1.500em;
+  font-size: 2.500em;
 }
 h3 {
   font-size: 1.063em;
@@ -7554,6 +7558,7 @@ a:hover {
 #MainNav .nav {
   font-weight: bold;
 }
+#MainNav h2 { float: left; color:#2c2c2c; margin-top: 17px;}
 section.section-emphasis h3 {
   color: #cfdae7;
 }
@@ -9297,7 +9302,7 @@ top: -423px;
   left: 0;
   right: 0;
   margin: 0 auto;
-  background: #2d91ff;
+  background: #6CF;
   -webkit-transition: background .3s ease;
   -moz-transition: background .3s ease;
   -o-transition: background .3s ease;
@@ -10429,4 +10434,11 @@ p:first-child {
     position: static;
     display: block;
   }
+  #MainHeader{
+    background: url("../images/small_logo.png") no-repeat #6CF;
+    height:490px;
+
+  }
+  #MainNav h2 {color:#2c2c2c;}
+  .wrapper { display: none;}
 }
