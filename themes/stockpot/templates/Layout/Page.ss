@@ -32,43 +32,19 @@
 
             <div class="nav-collapse collapse">
                 <ul class="nav nav-pills">
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" href="#MainHeader">Home</a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li class="dropdown">
-                                <a class="dropdown-toggle" href="#">Submenu</a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li class="dropdown">
-                                        <a class="dropdown-toggle" href="#">Another menu</a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="#">Page 1</a></li>
-                                            <li><a href="#">Page 2</a></li>
-                                            <li><a href="#">Page 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Page 1</a></li>
-                                    <li><a href="#">Page 2</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" href="#Work">Work</a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="07-portfolio.html">Isotope</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="05-elements.html">Elements</a></li>
-                    <li><a href="04-404.html">404</a></li>
-                    <li><a href="#BlogList">Blog</a></li>
+                    <li><a href="#MainHeader">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Work">Work</a></li>
+                    <li><a href="#Feasts">Feasts</a></li>
+                    <li><a href="http://foodisthebestshitever.com/" target="_blank">Food</a></li>
+                    <li><a href="#Events">Events</a></li>
                     <li><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </nav>
-<section id="about" class="parallax" style="background-image: url('$ThemeDir/images/content/morternpestle.jpg')">
+<section id="About" class="parallax" style="background-image: url('$ThemeDir/images/content/morternpestle.jpg')">
     <div class="container">
         <h2>
             About
@@ -168,36 +144,36 @@
 <section id="Work" class="work parallax" style="background-image: url('$ThemeDir/images/content/paellarice.jpg');">
     <div class="container">
         <h2>
-            Work
+            Some of our work
         </h2>
         <section class="preview flexslider row-fluid">
             <ul class="slides span12">
                 <li>
                     <ul class="row-fluid">
                         <li class="span4"><a href="work1.html"><img
-                                src="$ThemeDir/images/content/chooks.jpg" alt=""></a></li>
+                                src="$ThemeDir/images/content/eggs.jpg" alt=""></a></li>
                         <li class="span4"><a href="work2.html"><img
-                                src="$ThemeDir/images/content/prawns.jpg" alt=""></a></li>
+                                src="$ThemeDir/images/content/hassleback.jpg" alt=""></a></li>
                         <li class="span4"><a href="work3.html"><img
-                                src="$ThemeDir/images/content/cornfritters.jpg" alt=""></a></li>
+                                src="$ThemeDir/images/content/jars.jpg" alt=""></a></li>
                     </ul>
                     <ul class="row-fluid">
                         <li class="span4"><a href="work4.html"><img
-                                src="$ThemeDir/images/content/eggs.jpg" alt=""></a></li>
+                                src="$ThemeDir/images/content/garden.jpg" alt=""></a></li>
                         <li class="span4"><a href="work5.html"><img
-                                src="$ThemeDir/images/content/chillies.jpg" alt=""></a></li>
+                                src="$ThemeDir/images/content/cornfritters.jpg" alt=""></a></li>
                         <li class="span4"><a href="work6.html"><img
-                                src="$ThemeDir/images/content/hasselbacks.jpg" alt=""></a></li>
+                                src="$ThemeDir/images/content/pizza.jpg" alt=""></a></li>
                     </ul>
                 </li>
                 <li>
                     <ul class="row-fluid">
                         <li class="span4"><a href="work7.html"><img
-                                src="$ThemeDir/images/content/works/thumbnails/work-thumbnail-7.jpg" alt=""></a></li>
+                                src="$ThemeDir/images/content/jars.jpg" alt=""></a></li>
                         <li class="span4"><a href="work8.html"><img
-                                src="$ThemeDir/images/content/works/thumbnails/work-thumbnail-8.jpg" alt=""></a></li>
+                                src="$ThemeDir/images/content/garden.jpg" alt=""></a></li>
                         <li class="span4"><a href="work9.html"><img
-                                src="$ThemeDir/images/content/works/thumbnails/work-thumbnail-9.jpg" alt=""></a></li>
+                                src="$ThemeDir/images/content/pizza.jpg" alt=""></a></li>
                     </ul>
                     <ul class="row-fluid">
                         <li class="span4"><a href="work10.html"><img
@@ -232,62 +208,78 @@
             <!-- Work details are loaded here with Ajax from external html files -->
         </section>
     </div>
-    <section id="Skills" class="section-emphasis">
+    <section id="Feasts" class="section-emphasis">
         <div class="container">
-            <h3>
+            <h2>
                 FEASTS
-            </h3>
+            </h2>
             <div class="row-fluid">
                 <div class="span4 icon-box">
-                    <h4><i class="icon-cogs"></i>SAMPLE MENU 1</h4>
+                    <h4><img src="$ThemeDir/images/fork-icon.png" class="iconMenu">SAMPLE MENU 1</h4>
 
-                    <p>Built with semantically correct HTML5 and CSS3.<br>
-                        In pharetra scelerisque ullamcorper. Quisque et erat erat, et aliquet a dictum tellus.</p>
+                    <p>Bacon ipsum dolor sit amet shoulder leberkas pig biltong bresaola andouille chuck. 
+                    Rump ham hock porchetta tongue. Shank porchetta jowl spare ribs beef salami, biltong meatloaf t-bone. 
+                    Tri-tip shank frankfurter tenderloin, ground round shankle chicken. 
+                    Short ribs tri-tip spare ribs, porchetta pig capicola filet mignon. 
+                    Meatball porchetta tenderloin cow pork belly tongue shoulder ham boudin pig. 
+                    Prosciutto flank pork chop, strip steak chuck tenderloin ground round.</p>
                 </div>
                 <div class="span4 icon-box">
-                    <h4><i class="icon-desktop"></i>SAMPLE MENU 2</h4>
+                    <h4><img src="$ThemeDir/images/stockpot_small.png" class="iconMenu">SAMPLE MENU 2</h4>
 
-                    <p>Your website can be viewed on many different devices. Laptops, mobiles, tablets...<br>
-                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                    <p>Bacon ipsum dolor sit amet shoulder leberkas pig biltong bresaola andouille chuck. 
+                    Rump ham hock porchetta tongue. 
+                    Shank porchetta jowl spare ribs beef salami, biltong meatloaf t-bone. 
+                    Tri-tip shank frankfurter tenderloin, ground round shankle chicken. 
+                    Short ribs tri-tip spare ribs, porchetta pig capicola filet mignon. 
+                    Meatball porchetta tenderloin cow pork belly tongue shoulder ham boudin pig. 
+                    Prosciutto flank pork chop, strip steak chuck tenderloin ground round.</p>
                 </div>
                 <div class="span4 icon-box">
-                    <h4><i class="icon-thumbs-up"></i>SAMPLE MENU 3</h4>
+                    <h4><img src="$ThemeDir/images/knife-icon.png" class="iconMenu">SAMPLE MENU 3</h4>
 
-                    <p>You get documentation, to make editing and understanding it much easier.<br>
-                        Nulla facilisi. Cras a scelerisque ipsum. Vestibulum ac arcu neque.</p>
+                    <p>Bacon ipsum dolor sit amet shoulder leberkas pig biltong bresaola andouille chuck. 
+                    Rump ham hock porchetta tongue. 
+                    Shank porchetta jowl spare ribs beef salami, biltong meatloaf t-bone. 
+                    Tri-tip shank frankfurter tenderloin, ground round shankle chicken. 
+                    Short ribs tri-tip spare ribs, porchetta pig capicola filet mignon. 
+                    Meatball porchetta tenderloin cow pork belly tongue shoulder ham boudin pig. 
+                    Prosciutto flank pork chop, strip steak chuck tenderloin ground round.</p>
                 </div>
             </div>
         </div>
     </section>
 </section>
 
-<section id="BlogList" class="parallax" style="background-image: url('$ThemeDir/images/content/cornfritters.jpg')">
+<section id="Events" class="parallax" style="background-image: url('$ThemeDir/images/content/pickledlentils.jpg')">
     <div class="container">
         <h2>
-            From our blog
+            Events
         </h2>
 
         <div class="row-fluid">
-            <div class="blog-big-list">
-                <ul class="latest-posts span12">
-                    <li class="row-fluid">
-                        <span class="date span2">Aug 1, 2013</span>
-                        <a href="03-blog-single.html" class="title post-title span10">Standard Post Format with Image</a>
-                    </li>
-                    <li class="row-fluid">
-                        <span class="date span2">Jul 29, 2013</span>
-                        <a href="03-blog-single.html" class="title post-title span10">Gallery Post Format</a>
-                    </li>
-                    <li class="row-fluid">
-                        <span class="date span2">Jul 22, 2013</span>
-                        <a href="03-blog-single.html" class="title post-title span10">Link Post Format</a>
-                    </li>
-                    <li class="row-fluid">
-                        <span class="date span2">Jul 4, 2013</span>
-                        <a href="03-blog-single.html" class="title post-title span10">Another Standard Post Format</a>
-                    </li>
-                </ul>
-                <a href="02-blog.html" class="btn btn-default">View all posts</a>
+            <div class="row-fluid">
+                <div class="span4 person-box section-emphasis">
+                    <img src="$ThemeDir/images/content/meringue.jpg" alt="CreateIT">
+                    <h4>Weddings</h4>
+                    <h5>Short ribs tri-tip spare ribs, porchetta pig capicola filet mignon. 
+                    Meatball porchetta tenderloin cow pork belly tongue shoulder ham boudin pig. 
+                    Prosciutto flank pork chop, strip steak chuck tenderloin ground round.</h5>
+                </div>
+                <div class="span4 person-box section-emphasis">
+                    <img src="$ThemeDir/images/content/grayandjen.jpg" alt="kripalser">
+                    <h4>Private Functions</h4>
+                    <h5>Short ribs tri-tip spare ribs, porchetta pig capicola filet mignon. 
+                    Meatball porchetta tenderloin cow pork belly tongue shoulder ham boudin pig. 
+                    Prosciutto flank pork chop, strip steak chuck tenderloin ground round.</h5>
+                </div>
+                <div class="span4 person-box section-emphasis">
+                    <img src="$ThemeDir/images/content/bloody-mary.jpg" alt="themeforest">
+                    <h4>Parties</h4>
+                    <h5>Short ribs tri-tip spare ribs, porchetta pig capicola filet mignon. 
+                    Meatball porchetta tenderloin cow pork belly tongue shoulder ham boudin pig. 
+                    Prosciutto flank pork chop, strip steak chuck tenderloin ground round.</h5>
+                </div>
             </div>
         </div>
     </div>
@@ -298,7 +290,7 @@
             Contact
         </h2>
 
-        <div class="row-fluid">
+        <div class="row-fluid ">
             <form action="form/contact.php" method="post" class="contactForm span6" novalidate>
                 <input type="text" placeholder="Your name" name="name" required>
                 <input type="email" placeholder="Your email" name="email" required>
@@ -306,126 +298,20 @@
                 <label class="info">All fields required</label>
                 <input type="submit" value="Submit">
             </form>
-            <div class="span3">
+            <div class="span3 section-emphasis say-hello">
                 <div class="text-widget widget">
                     <h4>Say Hello</h4>
 
                     <p>
-                        Drop us a line via email:<br>
-                        <a href="mailto:fake@mail.com">hello@nonus.com</a>
+                        To arrange a meeting, quote or to find out more about us:<br>
+                        <a href="mailto:fake@mail.com">grayandjen@iinet.net.au</a>
                     </p>
-                </div>
-                <div class="text-widget widget">
-                    <h4 class="adress">Visit us</h4>
-
-                    <p>
-                        221 Baker Street<br>
-                        London, United Kingdom<br>
-                        +44 20 1234 5678<br>
-                    </p>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="social-widget widget">
-                    <h4>Elsewhere</h4>
-
-                    <p class="social">
-                        <a href="#" rel="nofollow"><i class="icon-facebook-sign"></i>Facebook</a><br>
-                        <a href="#" rel="nofollow"><i class="icon-twitter"></i>Twitter</a><br>
-                        <a href="#" rel="nofollow"><i class="icon-google-plus-sign"></i>Google+</a><br>
-                        <a href="#" rel="nofollow"><i class="icon-dribbble"></i>Dribbble</a>
-                    <p>
                 </div>
             </div>
         </div>
     </div>
-    <section id="Twitter" class="section-emphasis">
-        <div class="container tweets">
-            <h3>
-                <i class="icon-twitter"><span class="hidden-text">Twitter</span></i>
-            </h3>
-        </div>
-    </section>
 </section>
 <footer>
-    <div class="container">
-        <div class="row-fluid">
-            <div class="span3">
-                <div class="text-widget widget">
-                    <h4>About nonus</h4>
-                    <p>Lorem ipsum dolor nonus amet, consectetur ex adipisicing elit, sed do eiusmod incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad ex minim veniam, quis nostrud lorem exercitation ullamco laboris
-                        nisi ut aliquip nesciunt aliqua.</p>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="latest-posts-widget widget">
-                    <h4>Latest posts</h4>
-                    <ul class="latest-posts latest-posts-widget">
-                        <li>
-                            <span class="title"><a href="03-blog-single.html">Standard Post Format with Image</a></span>
-                            <span class="date">Aug 1, 2013</span>
-                        </li>
-                        <li>
-                            <span class="title"><a href="03-blog-single.html">Gallery Post Format</a></span>
-                            <span class="date">Jul 29, 2013</span>
-                        </li>
-                        <li>
-                            <span class="title"><a href="03-blog-single.html">Link Post Format</a></span>
-                            <span class="date">Jul 22, 2013</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="photo-stream-widget widget">
-                    <h4>Photo stream</h4>
-                    <div class="flickr_badge">
-                        <div class="flickr_badge_image">
-                            <a href="#">
-                                <img src="$ThemeDir/images/content/works/micro/work-micro-1.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="flickr_badge_image">
-                            <a href="#">
-                                <img src="$ThemeDir/images/content/works/micro/work-micro-2.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="flickr_badge_image">
-                            <a href="work3.html">
-                                <img src="$ThemeDir/images/content/works/micro/work-micro-3.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="flickr_badge_image">
-                            <a href="work4.html">
-                                <img src="$ThemeDir/images/content/works/micro/work-micro-4.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="flickr_badge_image">
-                            <a href="work5.html">
-                                <img src="$ThemeDir/images/content/works/micro/work-micro-5.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="flickr_badge_image">
-                            <a href="work6.html">
-                                <img src="$ThemeDir/images/content/works/micro/work-micro-6.jpg" alt="">
-                            </a>
-                        </div>
-                     </div>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="newsletter-widget widget">
-                    <h4>Our newsletter</h4>
-                    <form action="" method="" class="" novalidate>
-                        <input type="text" placeholder="Your name" name="name" required>
-                        <input type="email" placeholder="Your email" name="email" required>
-                        <input class="btn-block" type="submit" value="Submit">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
     <h4>
         &copy;2014 Stockpot Catering
     </h4>

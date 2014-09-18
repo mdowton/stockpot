@@ -5418,6 +5418,11 @@ a.badge:hover {
     background-position: 0 0;
   }
 }
+
+.iconMenu{
+  margin:10px auto;
+  display:block;
+}
 .progress {
   overflow: hidden;
   height: 20px;
@@ -8921,6 +8926,12 @@ top: -423px;
   position: absolute;
   left: 21px;
 }
+.say-hello{
+  padding:20px;
+}
+.say-hello a {
+  color:#FFF;
+}
 
 .fadeInUp { 
     -webkit-animation-name: fadeInUp; 
@@ -8928,6 +8939,10 @@ top: -423px;
     top: -956px;
     right: 265px;
     position: relative;
+}
+.person-box {
+  padding:10px;
+  text-align:center;
 }
 
 
@@ -9735,12 +9750,10 @@ form.contactForm label.info {
 /* =========================
  * ======= FOOTER ========== */
 footer {
-  padding: 43px 0 55px;
-  background: #0d0d0d;
+  
 }
 footer > h4 {
-  margin: 55px 0 -55px;
-  padding: 45px 0 45px;
+  padding: 25px 0;
   text-align: center;
   background: #fff;
 }
@@ -10273,7 +10286,7 @@ p:first-child {
   #MainNav.navbar .navbar-inner .container .nav li a {
     margin: 0;
     padding: 20px 0;
-    text-align: right;
+    text-align: center;
   }
   #MainNav ul .dropdown {
     *zoom: 1;
