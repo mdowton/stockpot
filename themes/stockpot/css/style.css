@@ -8917,7 +8917,7 @@ top: -423px;
   -o-animation: moveclouds 15s linear infinite;
 }
 .catering-text{
-  top: -1048px;
+  top: -915px;
   position: relative;
   left: 17px;
 }
@@ -9209,7 +9209,7 @@ top: -423px;
 }
 #MainNav ul li a:hover {
   background: none;
-  color: #262626;
+  color: #6CF;
 }
 #MainNav ul li.active a {
   background: none;
@@ -10448,10 +10448,15 @@ p:first-child {
     display: block;
   }
   #MainHeader{
-    background: url("../images/small_logo.png") no-repeat #6CF;
-    height:490px;
+    background: url("../images/mobile-logo.png") no-repeat #6CF;
+    height:420px;
 
   }
-  #MainNav h2 {color:#2c2c2c;}
+  #MainNav h2 {color:#2c2c2c; font-size:2em;}
+
+  #MainNav ul { float: none; margin:auto;}
+  #MainNav ul li {
+    margin-left:0;
+  }
   .wrapper { display: none;}
 }

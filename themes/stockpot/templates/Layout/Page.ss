@@ -1,4 +1,4 @@
-<header id="MainHeader" class="main-header parallax" style="background-color:#66ccff">
+<header id="MainHeader" class="main-header parallax" style="background-color:#66ccff; overflow:hidden;">
     <div class="container">
         <section class="row-fluid">
             <div class="span10 offset1">
@@ -304,7 +304,7 @@
 
                     <p>
                         To arrange a meeting, quote or to find out more about us:<br>
-                        <a href="mailto:fake@mail.com">grayandjen@iinet.net.au</a>
+                        <a href="mailto:grayandjen@iinet.net.au">grayandjen@iinet.net.au</a>
                     </p>
                 </div>
             </div>
