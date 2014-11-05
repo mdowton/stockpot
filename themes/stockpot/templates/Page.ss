@@ -26,6 +26,7 @@ Change it, enhance it and most importantly enjoy it!
 	<% require themedCSS('lightbox') %>
 	<% require themedCSS('ie') %>
 	<% require themedCSS('style') %>
+	<% require themedCSS('animation') %>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Amatic+SC" />
 	<link rel="shortcut icon" href="$ThemeDir/img/favicon.ico" />
 

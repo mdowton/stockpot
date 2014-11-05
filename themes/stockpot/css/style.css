@@ -8864,11 +8864,12 @@ top: -423px;
     animation-fill-mode: both; 
     position: relative; 
 } 
-.tada { 
-    -webkit-animation-name: tada; 
-    animation-name: tada; 
-    top: -283px;
-    left: 20px;
+.span10 .offset1{ overflow: hidden;}
+.hatch { 
+    top: -311px;
+    left: -160px;
+    visibility: hidden;
+    position: relative;
 }
 .stars {  
   top: -837px;
@@ -8950,8 +8951,8 @@ top: -423px;
     -webkit-animation-name: bounceInDown; 
     animation-name: bounceInDown; 
     position: absolute;
-    top: 69px;
-    left: 435px;
+    top: 131px;
+    left: 35px;
 }
 
 @-webkit-keyframes moveclouds {
