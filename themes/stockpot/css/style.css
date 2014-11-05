@@ -8701,11 +8701,16 @@ section h3 {
   margin: 0 0 33px;
 }
 section section {
-  margin: 55px 0 -55px;
+  /*margin: 55px 0 -55px;*/
 }
 .section-emphasis {
   background: #2d91ff;
   background: rgba(45,145,255,0.7);
+}
+.section-emphasis a{
+  color:#FFF;
+  font-size: 16px;
+  text-decoration: underline;
 }
 .section-emphasis-2 {
   background: #000;

@@ -35,7 +35,7 @@ Change it, enhance it and most importantly enjoy it!
 
 		$Layout
 
-
+<% include footer %>
 <% require javascript('framework/thirdparty/jquery/jquery.js') %>
 
 <% require javascript("cms/javascript/LeftAndMain.js") %>
