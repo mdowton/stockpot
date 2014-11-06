@@ -6,7 +6,7 @@
             <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
                 <!-- This button toggles visibility of menu on mobile devices -->
             </button>
-            <h2 class="menu-header">The Stockpot</h2>
+            <h2>The Stockpot</h2>
             <!--<a class="brand" href="#MainHeader"><img src="$ThemeDir/images/content/logo_small.jpg" alt="companyname"></a>-->
 
             <div class="nav-collapse collapse">
@@ -41,34 +41,37 @@
                 <div class="post-content">
                     
                     <blockquote>
-                            served on platters, get amongst it with your fingers style
+                            To start ($12 per head)
                     </blockquote>
 
                     <div class="post-content">
-                        
-                     <p>Polenta crusted artichokes, almonds, smoked paprika, preserved lemon mayo</p>
 
-											<p>	Maltese tomato bruschetta, fresh sourdough, tomato paste, great tomato, capers, salsa verde, olive oil</p>
+                    <p>Home made terrine and pate</p>
+                    <p>Cured meats by Salumi Australia</p>
+                    <p>Marinated local olives and other goodies</p>
+                    <p>Baked ricotta with chilli and herbs</p>
+                    <p>Sourdough crostini by Jordans Bakery</p>
+                    <p>Home made condiments</p>
 
-												<p>Croatian sausage slider, sour cabbage, relish</p>
 
-												<p>Beef ribs with Asian glaze, crisp eshallots and chilli</p>
+                    <blockquote>
+                        Middle (choose two meat options plus salad and bread, $30 per head)
+                    </blockquote> 
 
-												<p>“Cornjack” arancini, sweet corn and cheddar cheese rice balls, smoked chilli mayo</p>
+                    <p>Herb and lemon roasted free-range chicken, served with macadamia and market greens macadamia pilaf</p>
 
-												<p>Pana de bono, south American cheese bread</p>
+                    <p>Slow roasted Byron bay pork belly with apples and cider, served with fennel and radish salad</p>
 
-												<p>Bruschetta, whipped feta, pickled zucchini, salami</p>
+                    <p>Braised local beef ribs with bourbon, served with roasted sweet potato, charred corn and onion, chimmichurri sauce</p>
 
-												<p>Chicken and chorizo skewered on rosemary twigs</p>
+                    <p>Roast Tenterfield lamb shoulder with sumac, served with quinoa tabouleh, pomegranate and home made yoghurt</p>
 
-												<p>Filo cigars with slow roasted lamb, pinenuts, currants and preserved lemon, harissa yoghurt</p>
+                    <p>Crisp duck with tamarind dressing, served with stonefruit, cabbage and pickled ginger salad (extra $3 per head)</p>
 
-												<p>Local pork and duck sausage rolls, spiced tomato relish</p>
+                    <p>Garden salad with pickled cucumber and herbs</p>
 
-                       
-                        
-                        
+                    <p>Sourdough bread by Jordans Bakery</p>
+
                     </div>
                 </div>
             </article>

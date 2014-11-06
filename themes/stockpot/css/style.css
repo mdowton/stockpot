@@ -8703,6 +8703,31 @@ section h3 {
 section section {
   /*margin: 55px 0 -55px;*/
 }
+.menu-header{
+  color:#222;
+}
+
+.MenuPage #MainNav ul li a {
+  color: #FFF;
+}
+.BanquetPage #MainNav ul li a {
+  color:#FFF;
+}
+.SharedPage #MainNav ul li a {
+  color:#FFF;
+}
+
+.MenuPage #MainNav ul li a:hover {
+  color:#222;
+}
+.BanquetPage #MainNav ul li a:hover {
+  color:#222;
+}
+.SharedPage #MainNav ul li a:hover {
+  color:#222;
+}
+
+
 .section-emphasis {
   background: #2d91ff;
   background: rgba(45,145,255,0.7);

@@ -6,7 +6,7 @@
             <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
                 <!-- This button toggles visibility of menu on mobile devices -->
             </button>
-            <h2 class="menu-header">The Stockpot</h2>
+            <h2>The Stockpot</h2>
             <!--<a class="brand" href="#MainHeader"><img src="$ThemeDir/images/content/logo_small.jpg" alt="companyname"></a>-->
 
             <div class="nav-collapse collapse">
@@ -41,30 +41,25 @@
                 <div class="post-content">
                     
                     <blockquote>
-                            served on platters, get amongst it with your fingers style
+                            Spring Feast #1 ($35 per head)
                     </blockquote>
 
                     <div class="post-content">
                         
-                     <p>Polenta crusted artichokes, almonds, smoked paprika, preserved lemon mayo</p>
+                    
 
-											<p>	Maltese tomato bruschetta, fresh sourdough, tomato paste, great tomato, capers, salsa verde, olive oil</p>
+                    <p>Local king prawns and chorizo with broad beans and cider</p>
 
-												<p>Croatian sausage slider, sour cabbage, relish</p>
+                    <p>Polenta crumbed artichoke hearts</p>
 
-												<p>Beef ribs with Asian glaze, crisp eshallots and chilli</p>
+                    <p>Garlic roasted potatoes or saffron paella</p>
 
-												<p>“Cornjack” arancini, sweet corn and cheddar cheese rice balls, smoked chilli mayo</p>
+                    <p>Tomato, cucumber and onion salad</p>
 
-												<p>Pana de bono, south American cheese bread</p>
+                    <p>Romesco sauce and aioli</p>
 
-												<p>Bruschetta, whipped feta, pickled zucchini, salami</p>
+                    <p>Garlic and herb sourdough</p>
 
-												<p>Chicken and chorizo skewered on rosemary twigs</p>
-
-												<p>Filo cigars with slow roasted lamb, pinenuts, currants and preserved lemon, harissa yoghurt</p>
-
-												<p>Local pork and duck sausage rolls, spiced tomato relish</p>
 
                        
                         
