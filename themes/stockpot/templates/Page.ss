@@ -28,7 +28,7 @@ Change it, enhance it and most importantly enjoy it!
 	<% require themedCSS('style') %>
 	<% require themedCSS('animation') %>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Amatic+SC" />
-	<link rel="shortcut icon" href="$ThemeDir/img/favicon.ico" />
+	<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
 
 </head>
 <body class="$ClassName<% if not $Menu(2) %> no-sidebar<% end_if %>" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
